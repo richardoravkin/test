@@ -1,0 +1,35 @@
+baseURL = "https://example.com/"
+languageCode = "en-US"
+title = "Richard Oravkin"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+theme = "hugo-sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "img/profile.png"
+  author = "Richard Oravkin"
+  description = "Describe your website"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "richardoravkin"
+  Email         = "richard.oravkin.19@ucl.ac.uk"
+## Main Menu
+[[menu.main]]
+  name = "projects"
+  identifier = "projects"
+  weight = 200
+  url = "/projects/"
+[[menu.main]]
+  name = "resume"
+  identifier = "resume"
+  weight = 300
+  url = "img/Richard_Oravkin_CV.pdf"

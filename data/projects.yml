@@ -1,0 +1,16 @@
+name: Projects
+source:
+  - icon: fa fa-globe
+    name: OptiCycle
+    description: An app for personalized training advice for professional cyclists. Development is still in progress.
+    url: loom link
+
+  - icon: fa fa-globe
+    name: Krpacovo park
+    description: A real estate project in the heart of the Slovak Tatras.
+    url: https://www.krpacovopark.com
+
+  - icon: fa fa-github
+    name: An Introduction to univalent functions
+    description: If you like complex analysis, read my project about geometric function theory.
+    url: https://github.com/richardoravkin/Summer-Project
